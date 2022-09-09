@@ -1,6 +1,6 @@
-package com.vin.array;
+package com.vin.tree;
 
-import com.vin.array.model.TreeNode;
+import com.vin.model.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

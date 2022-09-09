@@ -1,6 +1,6 @@
-package com.vin.array;
+package com.vin;
 
-import com.vin.array.model.Node;
+import com.vin.model.LinkNode;
 
 public class Utils {
     public static void fg(int i) {
@@ -24,11 +24,11 @@ public class Utils {
     }
 
 
-    public static Node getHead(int[] array) {
-        Node head = new Node(array[0]);
-        Node temp = head;
+    public static LinkNode getHead(int[] array) {
+        LinkNode head = new LinkNode(array[0]);
+        LinkNode temp = head;
         for (int i = 1; i < array.length; i++) {
-            temp.next = new Node(array[i]);
+            temp.next = new LinkNode(array[i]);
             temp = temp.next;
         }
         return head;

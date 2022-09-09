@@ -1,4 +1,4 @@
-package com.vin.array.model;
+package com.vin.model;
 
 import lombok.Data;
 

@@ -1,15 +1,14 @@
-package com.vin.array.model;
+package com.vin.model;
 
-
-public class Node {
+public class LinkNode {
     public int value;
-    public Node next;
+    public LinkNode next;
 
-    public Node(int value) {
+    public LinkNode(int value) {
         this.value = value;
     }
 
-    public static void print(Node head) {
+    public static void print(LinkNode head) {
         while (head.next != null) {
             System.out.print(head.value + "->");
             head = head.next;
